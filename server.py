@@ -453,11 +453,7 @@ def update_counter():
 
 def open_folder():
     os.startfile(PHOTO_DIR)
-
-
-def open_browser():
-    webbrowser.open(current_url)
-
+    
 
 def create_gui():
     global gui_root
