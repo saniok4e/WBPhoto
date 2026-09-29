@@ -6,7 +6,6 @@ import qrcode
 import threading
 import tkinter as tk
 from tkinter import messagebox
-import webbrowser
 import os
 import ctypes
 
@@ -573,6 +572,9 @@ def create_gui():
     )
 
     folder_button.pack(pady=7)
+
+    # Запускаем цикл окна Windows
+    gui_root.mainloop()
 
 # =========================================================
 # MAIN
